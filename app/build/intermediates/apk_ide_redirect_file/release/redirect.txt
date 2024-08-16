@@ -1,0 +1,2 @@
+#- File Locator -
+listingFile=../../../../../../OutPut app/release/output-metadata.json

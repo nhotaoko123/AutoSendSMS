@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SendSMS</string>
+    <string-array name="Delay_to_send_SMS">
+        <item>Delay to send SMS</item>
+        <item>1 Minute</item>
+        <item>2 Minutes</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>30 Minutes</item>
+        <item>60 Minutes</item>
+    </string-array>
+
+    <string-array name="Delay_to_send_SMS2">
+        <item>Number of messages</item>
+        <item>1 Message</item>
+        <item>5 Messages</item>
+        <item>10 Messages</item>
+        <item>100 Messages</item>
+        <item>300 Messages</item>
+        <item>600 Messages</item>
+    </string-array>
+</resources>

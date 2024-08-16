@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sendsms"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\SendSMS2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\SendSMS2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SEND_SMS" />
+11-->D:\SendSMS2\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\SendSMS2\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_SMS" />
+12-->D:\SendSMS2\app\src\main\AndroidManifest.xml:6:5-66
+12-->D:\SendSMS2\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+13-->D:\SendSMS2\app\src\main\AndroidManifest.xml:7:5-69
+13-->D:\SendSMS2\app\src\main\AndroidManifest.xml:7:22-67
+14    <uses-permission android:name="android.permission.WRITE_SMS" />
+14-->D:\SendSMS2\app\src\main\AndroidManifest.xml:8:5-67
+14-->D:\SendSMS2\app\src\main\AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\SendSMS2\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\SendSMS2\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->D:\SendSMS2\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\SendSMS2\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->D:\SendSMS2\app\src\main\AndroidManifest.xml:11:5-75
+17-->D:\SendSMS2\app\src\main\AndroidManifest.xml:11:22-72
+18    <uses-permission android:name="android.permission.READ_CONTACTS" />
+18-->D:\SendSMS2\app\src\main\AndroidManifest.xml:12:5-72
+18-->D:\SendSMS2\app\src\main\AndroidManifest.xml:12:22-69
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->D:\SendSMS2\app\src\main\AndroidManifest.xml:13:5-14:40
+19-->D:\SendSMS2\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
+20-->D:\SendSMS2\app\src\main\AndroidManifest.xml:15:5-16:47
+20-->D:\SendSMS2\app\src\main\AndroidManifest.xml:15:22-73
+21
+22    <application
+22-->D:\SendSMS2\app\src\main\AndroidManifest.xml:19:5-38:19
+23        android:allowBackup="true"
+23-->D:\SendSMS2\app\src\main\AndroidManifest.xml:20:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] C:\Users\duy09\.gradle\caches\transforms-3\d8338c189490aee58604e111af57865f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->D:\SendSMS2\app\src\main\AndroidManifest.xml:21:9-65
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\SendSMS2\app\src\main\AndroidManifest.xml:22:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\SendSMS2\app\src\main\AndroidManifest.xml:23:9-43
+28        android:label="@string/app_name"
+28-->D:\SendSMS2\app\src\main\AndroidManifest.xml:24:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\SendSMS2\app\src\main\AndroidManifest.xml:25:9-54
+30        android:supportsRtl="true"
+30-->D:\SendSMS2\app\src\main\AndroidManifest.xml:26:9-35
+31        android:theme="@style/Theme.SendSMS" >
+31-->D:\SendSMS2\app\src\main\AndroidManifest.xml:27:9-45
+32        <activity
+32-->D:\SendSMS2\app\src\main\AndroidManifest.xml:29:9-37:20
+33            android:name="com.example.sendsms.MainActivity"
+33-->D:\SendSMS2\app\src\main\AndroidManifest.xml:30:13-41
+34            android:exported="true" >
+34-->D:\SendSMS2\app\src\main\AndroidManifest.xml:31:13-36
+35            <intent-filter>
+35-->D:\SendSMS2\app\src\main\AndroidManifest.xml:32:13-36:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\SendSMS2\app\src\main\AndroidManifest.xml:33:17-69
+36-->D:\SendSMS2\app\src\main\AndroidManifest.xml:33:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\SendSMS2\app\src\main\AndroidManifest.xml:35:17-77
+38-->D:\SendSMS2\app\src\main\AndroidManifest.xml:35:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\duy09\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\duy09\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+44            android:authorities="com.example.sendsms.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\duy09\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\duy09\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\duy09\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\duy09\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\duy09\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\duy09\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\duy09\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\duy09\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>

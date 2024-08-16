@@ -1,0 +1,4 @@
+#Mon Jun 13 21:46:10 ICT 2022
+base.0=D\:\\SendSMS2\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
