@@ -45,4 +45,4 @@ The app uses standard Android UI components. The design may be basic, but all fu
 
   | **Image**              |
   |----------------------|
-  | <img src="https://github.com/user-attachments/assets/13c935fe-d78d-4fd7-b644-2122f1fb3365" alt="Project Diagram" width="325"/>      <img src="https://github.com/user-attachments/assets/53e610e0-98c4-45c8-b481-5baa45f34be1" alt="Project Diagram" width="325"/>      <img src="https://github.com/user-attachments/assets/f41a0899-39e9-475a-b6a5-427500228551" alt="Project Diagram" width="325"/> |
+  | <img src="https://github.com/user-attachments/assets/13c935fe-d78d-4fd7-b644-2122f1fb3365" alt="Project Diagram" width="300"/>      <img src="https://github.com/user-attachments/assets/53e610e0-98c4-45c8-b481-5baa45f34be1" alt="Project Diagram" width="300"/>      <img src="https://github.com/user-attachments/assets/f41a0899-39e9-475a-b6a5-427500228551" alt="Project Diagram" width="300"/> |
